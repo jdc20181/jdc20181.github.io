@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: theme('colors.dracula.background');
+  color: theme('colors.dracula.foreground');
+}
+
+/* Example usage for timeline and cards */
+.timeline {
+  border-left: 2px solid theme('colors.dracula.purple');
+}
+.card {
+  background-color: theme('colors.dracula.currentLine');
+  color: theme('colors.dracula.foreground');
+}

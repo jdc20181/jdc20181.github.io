@@ -1,8 +1,5 @@
 # Ignore dev/build files for GH Pages
 node_modules/
-dist/
-src/
-tailwind.config.js
 package.json
 package-lock.json
 npm-debug.log
