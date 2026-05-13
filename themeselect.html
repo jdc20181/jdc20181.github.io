@@ -155,6 +155,118 @@ html[data-wx-theme="midnight"] {
   --wx-skeleton: rgba(200, 204, 240, 0.07);
   --wx-skeleton-soft: rgba(200, 204, 240, 0.04);
 }
+html[data-wx-theme="lilac"] {
+  /* Page backgrounds - light version */
+  --wx-page-start: rgba(245, 243, 255, 1);
+  --wx-page-mid: rgba(240, 237, 255, 1);
+  --wx-page-end: rgba(235, 232, 250, 1);
+  --wx-page-accent: rgba(110, 88, 254, 0.06);
+  
+  /* Text colors - dark for light backgrounds */
+  --wx-ink: rgba(30, 28, 45, 1);
+  --wx-heading: rgba(20, 18, 35, 1);
+  --wx-copy: rgba(55, 52, 75, 1);
+  --wx-copy-strong: rgba(35, 33, 55, 1);
+  --wx-muted: rgba(110, 105, 140, 1);
+  --wx-muted-strong: rgba(90, 85, 120, 1);
+  --wx-muted-soft: rgba(140, 135, 170, 1);
+  
+  /* Accent colors - keeping the lilac feel */
+  --wx-accent: rgba(110, 88, 254, 1);
+  --wx-accent-strong: rgba(90, 70, 240, 1);
+  --wx-accent-soft: rgba(110, 88, 254, 0.08);
+  --wx-accent-soft-strong: rgba(110, 88, 254, 0.15);
+  --wx-accent-border: rgba(110, 88, 254, 0.2);
+  --wx-accent-bg: rgba(110, 88, 254, 0.08);
+  --wx-accent-hover-border: rgba(110, 88, 254, 0.35);
+  --wx-accent-hover-bg: rgba(110, 88, 254, 0.12);
+  --wx-accent-text: #6e58fe;
+  
+  /* Status colors */
+  --wx-sun: #e6a020;
+  --wx-alert: #e5484d;
+  
+  /* Panels - lighter with slight lilac tint */
+  --wx-panel: rgba(255, 255, 255, 0.95);
+  --wx-panel-strong: rgba(250, 248, 255, 1);
+  --wx-panel-soft: rgba(255, 255, 255, 0.85);
+  --wx-panel-elevated: rgba(255, 255, 255, 1);
+  --wx-panel-shadow: 0 8px 20px rgba(30, 28, 45, 0.08);
+  --wx-panel-shadow-strong: 0 18px 44px rgba(30, 28, 45, 0.12);
+  --wx-panel-radius: 1.5rem;
+  --wx-panel-radius-small: 1.1rem;
+  
+  /* Shell components */
+  --wx-shell-header: rgba(255, 255, 255, 0.85);
+  --wx-shell-band: rgba(248, 246, 255, 0.9);
+  --wx-shell-footer: rgba(255, 255, 255, 0.8);
+  --wx-mobile-nav: rgba(250, 249, 255, 0.98);
+  --wx-shell-max-width: 1380px;
+  --wx-shell-gutter: 1.25rem;
+  
+  /* Borders */
+  --wx-border: rgba(110, 105, 140, 0.12);
+  --wx-border-strong: rgba(110, 105, 140, 0.2);
+  
+  /* Links */
+  --wx-link: #6e58fe;
+  
+  /* Selection & Focus */
+  --wx-selection: rgba(110, 88, 254, 0.1);
+  --wx-focus: rgba(110, 88, 254, 0.25);
+  
+  /* Navigation */
+  --wx-nav-text: #3a3755;
+  --wx-nav-surface: rgba(110, 105, 140, 0.06);
+  --wx-nav-hover-surface: rgba(110, 88, 254, 0.08);
+  
+  /* Ghost elements */
+  --wx-ghost-border: rgba(110, 105, 140, 0.12);
+  --wx-ghost-bg: rgba(110, 105, 140, 0.03);
+  --wx-ghost-hover-bg: rgba(110, 88, 254, 0.06);
+  --wx-ghost-text: #4a4770;
+  
+  /* Buttons */
+  --wx-solid-button-bg: #6e58fe;
+  --wx-solid-button-text: #ffffff;
+  --wx-solid-button-hover: #5542e0;
+  
+  /* Secondary elements */
+  --wx-secondary-bg: rgba(110, 105, 140, 0.05);
+  --wx-secondary-hover-bg: rgba(110, 88, 254, 0.08);
+  --wx-secondary-text: #4a4770;
+  
+  /* Cards */
+  --wx-card-hover-bg: rgba(110, 88, 254, 0.03);
+  --wx-card-hover-border: rgba(110, 88, 254, 0.15);
+  --wx-card-hover-shadow: 0 10px 24px rgba(30, 28, 45, 0.1);
+  
+  /* Banners */
+  --wx-banner-radius: 1rem;
+  --wx-banner-neutral-bg: rgba(110, 105, 140, 0.05);
+  --wx-banner-neutral-border: rgba(110, 105, 140, 0.1);
+  --wx-banner-info-bg: rgba(110, 88, 254, 0.06);
+  --wx-banner-info-border: rgba(110, 88, 254, 0.15);
+  --wx-banner-info-accent: #6e58fe;
+  --wx-banner-info-eyebrow: #6e58fe;
+  --wx-banner-info-body: #3a3755;
+  --wx-banner-alert-bg: rgba(229, 72, 77, 0.06);
+  --wx-banner-alert-border: rgba(229, 72, 77, 0.15);
+  --wx-banner-alert-accent: #e5484d;
+  --wx-banner-alert-eyebrow: #e5484d;
+  --wx-banner-alert-body: #3a3755;
+  
+  /* Glass blur (light mode often uses less blur) */
+  --wx-glass-blur: 0px;
+  
+  /* Mobile sheet */
+  --wx-mobile-sheet-shadow: 0 -14px 32px rgba(30, 28, 45, 0.1);
+  
+  /* Skeletons */
+  --wx-skeleton-strong: rgba(110, 105, 140, 0.12);
+  --wx-skeleton: rgba(110, 105, 140, 0.08);
+  --wx-skeleton-soft: rgba(110, 105, 140, 0.04);
+}
 html[data-wx-theme="light"] {
   color-scheme:light;
   --wx-page-start:#f5f7fb;--wx-page-mid:#edf1f7;--wx-page-end:#e4e9f2;
@@ -295,7 +407,8 @@ h1,h2,h3,h4{color:var(--wx-heading);margin-top:0;}
 <div class="topbar">
   <div class="tabs" id="tabs">
     <button class="tab-btn active" data-theme="default" onclick="switchTheme('default',this)">Default</button>
-    <button class="tab-btn active" data-theme="midnight" onclick="switchTheme('midnight',this)">Midnight</button>
+    <button class="tab-btn" data-theme="midnight" onclick="switchTheme('midnight',this)">Midnight</button>
+        <button class="tab-btn" data-theme="midnight" onclick="switchTheme('lilac',this)">lilac</button>
     <button class="tab-btn" data-theme="dracula" onclick="switchTheme('dracula',this)">Dracula</button>
     <button class="tab-btn" data-theme="light" onclick="switchTheme('light',this)">Light</button>
     <button class="tab-btn" data-theme="overcast" onclick="switchTheme('overcast',this)">Overcast</button>
@@ -360,7 +473,7 @@ h1,h2,h3,h4{color:var(--wx-heading);margin-top:0;}
 <div class="toast" id="toast"></div>
 
 <script>
-const BUILT_IN = ['default','dracula','light','overcast','midnight'];
+const BUILT_IN = ['default','dracula','light','overcast','midnight','lilac'];
 let currentTheme = 'default';
 let customThemes = {};
 let overrides = {};
@@ -691,3 +804,4 @@ document.getElementById('new-theme-name').addEventListener('keydown', e => {
 </script>
 </body>
 </html>
+
